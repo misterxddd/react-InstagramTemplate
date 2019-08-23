@@ -1,0 +1,25 @@
+.button {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  box-shadow: inset 2px 2px 1px rgba(0,0,0,0.3);
+}
+
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  border: none;
+}
+
+.btn-danger {
+  background: rgba(240, 87, 108, 0.7);
+  color: #000;
+}
